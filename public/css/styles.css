@@ -889,6 +889,17 @@ img {
   }
 }
 
+@media (max-width: 640px) {
+  .playbook-grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .playook-grid .card {
+    width: 100%;
+  }
+}
+
 @media (max-width: 480px) {
   h1 {
     font-size: 34px;
